@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nexon</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.js"></script>
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="ui borderless topmenu menu">
+  <div class="ui topmenu container">
+    <div class="header fitted item"> NEXON </div>
+    <div class="ui dropdown topmenu item">
+      <span class="text"> GAMES <i class="sidebar icon"></i> </span>
+      <div class="ui menu">
+        <div class="item">Combat Arms: Reloaded</div>
+        <div class="item">Counter Strike Nexon: Zombies</div>
+        <div class="item">Duel of Summoners</div>
+        <div class="item">First Assault</div>
+        <div class="item">Hyper Universe</div>
+        <div class="item">Law Breakers</div>
+        <div class="item">Mabinogi</div>
+        <div class="item">MapleStory</div>
+        <div class="item">Riders of Icarus</div>
+        <div class="item">Vindictus</div>
+      </div>
+    </div>
+    <div class="right item">
+      <button class="ui inverted blue button">LOGIN</button>
+    </div>
+    <div class="fitted item">
+      <button class="ui inverted green tiny button">SIGN UP</button>
+    </div>
+  </div>
+</div>
+
+
+<div class="owl-carousel owl-theme">
+  <div class="item"><img src="//nxcache.nexon.net/www/img/carousel/background/dos_large.jpg"></div>
+  <div class="item"><img src="//nxcache.nexon.net/www/img/carousel/background/lawbreakers_large.jpg"></div>
+  <div class="item"><img src="//nxcache.nexon.net/www/img/carousel/background/hyperuniverse_large.jpg"></div>
+  <div class="item"><img src="//nxcache.nexon.net/www/img/carousel/background/icarus_large.jpg"></div>
+  <div class="item"><img src="//nxcache.nexon.net/www/img/carousel/background/firstassault_large.jpg"></div>
+  <div class="ms item"><img src="//nxcache.nexon.net/www/img/carousel/background/maplestory_large.jpg"></div>
+  <div class="item"><img src="//nxcache.nexon.net/www/img/carousel/background/mabinogi_large.jpg"></div>
+  <div class="item"><img src="//nxcache.nexon.net/www/img/carousel/background/vindictus_large.jpg"></div>
+  <div class="item"><img src="//nxcache.nexon.net/www/img/carousel/background/combatarms_large.jpg"></div>
+  <div class="item"><img src="//nxcache.nexon.net/www/img/carousel/background/csnz_large.jpg"></div>
+</div>
+
+
+<div class="bottom-background">
+  <div class="ui centered world grid container">
+    <i class="blue big world icon"></i>
+    <span class="worldfont"> English (US) </span>
+  </div>
+  <div class="ui centered bottom grid container">
+    <i class="circular big inverted black facebook f icon"></i>
+    <i class="circular big inverted black twitter icon"></i>
+  </div>
+
+  <div class="ui four column grid container">
+    <div class="column">
+      <h4 class="ui header">Your Account</h4>
+      <div class="ui list">
+        <div class="item">Account Settings</div>
+        <div class="item">Purchase NX</div>
+        <div class="item">Find a Game Card</div>
+        <div class="item">Review Purchases</div>
+        <div class="item">NX Guide</div>
+      </div>
+    </div>
+    <div class="column">
+      <h4 class="ui header">Support</h4>
+      <div class="ui list">
+        <div class="item">Get Support</div>
+      </div>
+    </div>
+    <div class="column">
+      <h4 class="ui header">Nexon America</h4>
+      <div class="ui list">
+        <div class="item">About Nexon</div>
+        <div class="item">Careers </div>
+        <div class="item">Business Opportunities</div>
+        <div class="item">Press</div>
+        <div class="item">Investor Relations</div>
+      </div>
+    </div>
+      <div class="column">
+        <h4 class="ui header">Policies & Agreements</h4>
+        <div class="ui list">
+          <div class="item">Privacy Policy</div>
+          <div class="item">Legal Documentation</div>
+        </div>
+      </div>
+  </div>
+
+  <div class="ui centered grid container">
+    <img src="//nxcache.nexon.net/all/img/nexon_logo_white.png"> <span class=copyright> &copy; 2017 NEXON Korea Corporation and NEXON America Inc. All Rights Reserved </span>
+  </div>
+</div>
+
+</div>
+
+<!--- Footer --->
+
+<script>
+  $('.ui.dropdown')
+      .dropdown({transition: 'drop', on:'hover'});
+</script>
+
+<script>
+  $('.ui.modal')
+      .modal()
+  ;
+</script>
+
+<script>
+  $(document).ready(function(){
+    $(".owl-carousel").owlCarousel({
+      items:1,
+      loop:true,
+      dots:true,
+      nav:true,
+      navText: ["<img src='//nxcache.nexon.net/www/img/carousel/icon/nav_previous.png'>", "<img src='//nxcache.nexon.net/www/img/carousel/icon/nav_next.png'>"],
+      navClass: ['owl-prev', 'owl-next'],
+      autoplay:true,
+      autoplayTimeout:10000,
+      autoplayHoverPause:true
+    });
+  });
+</script>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+
+</body>
+</html>

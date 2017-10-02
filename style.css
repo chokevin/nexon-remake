@@ -1,0 +1,105 @@
+.header.fitted.item{
+  font-family:'Lucida Grande','Lucida Sans Unicode',Tahoma,sans-serif;
+  color:whitesmoke;
+}
+
+.games.item {
+  font-family:'Lucida Grande','Lucida Sans Unicode',Tahoma,sans-serif;
+  color:whitesmoke;
+}
+
+.bottom-background{
+  background-color:#272b33;
+  height:500px;
+}
+
+.ui.borderless.topmenu.menu{
+  background-color:#272b33;
+  border-top:none;
+  border-left:none;
+  border-right:none;
+  margin:0px;
+  border-width:3px;
+  -moz-border-image: -moz-linear-gradient(left, #0aa0d2 0%, #ccf441 100%);
+  -webkit-border-image: -webkit-linear-gradient(left, #0aa0d2 0%, #ccf441 100%);
+  border-image: linear-gradient(to right, #0aa0d2 0%, #ccf441 100%);
+  border-image-slice: 1;
+}
+
+.ui.topmenu.container{
+  padding:0 10px 0 10px!IMPORTANT;
+
+}
+
+.worldfont {
+  color: #2185D0;
+  font-family:'Lucida Grande','Lucida Sans Unicode',Tahoma,sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.ui.header {
+  color:whitesmoke;
+}
+
+.copyright{
+  color:gray;
+}
+
+.column{
+  color:gray;
+}
+
+.ui.dropdown.topmenu.item{
+  font-family:'Lucida Grande','Lucida Sans Unicode',Tahoma,sans-serif;
+  color:#0aa0d2;
+  margin:0px;
+}
+
+.ui.centered.bottom.grid.container{
+  padding-top:40px;
+  padding-bottom: 20px;
+}
+
+.ui.centered.world.grid.container{
+  padding-top:40px;
+}
+
+.owl-dots {
+  margin: -30px;
+}
+
+.owl-nav {
+  margin-top:35px!IMPORTANT;
+}
+
+.ui.button{
+  font-family:'Lucida Grande','Lucida Sans Unicode',Tahoma,sans-serif;
+}
+
+
+.ms.item{
+  height:496px;
+}
+
+.owl-prev {
+  width: 15px;
+  height: 100px;
+  background: none!IMPORTANT;
+  position: absolute;
+  top: 40%;
+  margin-left: -20px;
+  display: block!IMPORTANT;
+  border:0px solid black;
+}
+
+.owl-next {
+  width: 15px;
+  height: 100px;
+  background: none!IMPORTANT;
+  position: absolute;
+  top: 40%;
+  right: 70px;
+  display: block!IMPORTANT;
+  border:0px solid black;
+}
